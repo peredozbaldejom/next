@@ -38,7 +38,7 @@ export function Card({
   title: string;
   value: number | string;
   type: 'invoices' | 'customers' | 'pending' | 'collected';
-}) {
+}) : React.ReactElement {
   const Icon = iconMap[type];
 
   return (
